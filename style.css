@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: black;
+   
+}
+
+.text {
+    display: flex;
+    color: yellow;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec h2:hover{
+    color: red;
+}
+.sec h3 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec h3:hover {
+    color: yellow;
+}
+
+.sec p {
+    font-size: 1.2em;
+    color: #fff;
+}
+.connectbutton{
+        background-color: #fcb045; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      
+}
+.connectlink{
+    text-decoration: none;
+}
+.flex-container{
+    display:flex;
+    justify-content: left;
+}
