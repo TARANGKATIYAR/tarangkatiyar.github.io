@@ -18,7 +18,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 5vh 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ header .logo {
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1vh;
 }
 
 header ul {
@@ -75,7 +75,7 @@ header ul li a.active {
     color: #fff;
 }
 .sec h2:hover{
-    color: red;
+    color: yellow;
 }
 .sec h3 {
     font-size: 3.5em;
@@ -104,7 +104,82 @@ header ul li a.active {
 .connectlink{
     text-decoration: none;
 }
-.flex-container{
-    display:flex;
-    justify-content: left;
+.image{
+    width: 30%;
+    height: 30vh;
+    margin-right: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 1030px;
+    border: 10px solid #fff;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display : flex;
+    flex-direction : row ;
+    justify-content : space-around;
+    flex-flow : wrap;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 300px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+.box p{
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    padding: 100px;
+}
+.footer h3 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer h3:hover {
+    color: yellow;
+}
+.footer p {
+    font-size: 1.2em;
+    color: #fff;
+}
+.connectbutton{
+    background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.showcase img{
+    height: 30%;
+    width:  30%;
+   margin: 1em;
+}
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
 }
