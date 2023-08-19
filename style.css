@@ -128,8 +128,8 @@ header ul li a.active {
 }
 .box{
     width: 30%;
-    height: 200px;
-    margin: 30px;
+    height: 50vh;
+    margin: 3vh;
     margin-bottom: 300px;
     box-sizing: border-box;
     font-size: 50px;
@@ -157,7 +157,7 @@ header ul li a.active {
     background-color: white; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 2vh 2vh;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -172,9 +172,9 @@ header ul li a.active {
 }
 
 .showcase img{
-    height: 30%;
-    width:  30%;
-   margin: 1em;
+    height: 50vh;
+    width:  50vh;
+   margin: 7em;
 }
 @media (max-width: 768px) {
     /* Styles for screens up to 768px wide */
